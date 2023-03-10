@@ -1,0 +1,26 @@
+img{
+    width:100%
+}
+
+.mw9{
+    max-width: 1200px;
+}
+
+.slide-items {
+  width: 100%;
+  height: 100%;
+}
+
+.slide-items img {
+  width: 100%;
+  object-fit: cover;
+  height: 25vw;
+}
+
+p{
+    line-height: 2;
+}
+
+iframe {
+    height: 27vw;
+}
