@@ -1,3 +1,7 @@
+html{
+    font-family: 'Harenosora';
+}
+
 img{
     width:100%
 }
@@ -23,4 +27,9 @@ p{
 
 iframe {
     height: 27vw;
+}
+
+@font-face {
+  font-family: 'Harenosora';
+  src:url('./fonts/Harenosora.otf') format('truetype');
 }
