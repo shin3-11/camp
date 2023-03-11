@@ -6,16 +6,88 @@ html{
     font-family: 'Harenosora';
 }
 
-h1, h2,h3,h4,h5,h6,p,a{
-    font-family: 'Harenosora';
-}
-
 img{
     width:100%
 }
 
+
+
+h1, h2,h3,h4,h5,h6,p,a{
+    font-family: 'Harenosora';
+}
+
+p{
+    line-height: 2;
+}
+
+.text-gold{
+  color:#b49d7c
+}
+
+.fs-50{
+  font-size: 50%;
+}
+
+.fs-96{
+  font-size: 96%;
+}
+
+.fs-121{
+  font-size: 121%;
+}
+
+.fs-410{
+  font-size: 410%;
+}
+
+.fs-326{
+  font-size: 326%;
+}
+
+.ls-01{
+  letter-spacing: 0.1rem;
+}
+
+.ls-03{
+  letter-spacing: 0.3rem;
+}
+
+.ls-05{
+  letter-spacing: 0.5rem;
+}
+
+.lh-18{
+  line-height: 1.8;
+}
+
+.mw-50{
+  max-width: 50%;
+}
+
+.mw-1080p{
+  max-width: 1080px;
+}
+
 .mw9{
-    max-width: 1200px;
+    max-width: 1140px;
+}
+
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-section{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 37vw;
+    max-height: 535px;
+}
+
+.bg-section img{
+    width:43%;
+    max-width: 576px;
 }
 
 .slide-items {
@@ -29,10 +101,13 @@ img{
   height: 25vw;
 }
 
-p{
-    line-height: 2;
+.c1 {
+  height: 33vh;
+  object-fit: cover;
+  max-height: 297px;
 }
 
 iframe {
     height: 27vw;
 }
+
